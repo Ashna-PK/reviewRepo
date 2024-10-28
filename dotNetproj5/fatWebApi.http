@@ -1,0 +1,6 @@
+@fatWebApi_HostAddress = http://localhost:5217
+
+GET {{fatWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

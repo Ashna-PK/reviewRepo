@@ -1,0 +1,63 @@
+<!-- <h2>Routing in Angular</h2>
+<nav>
+  <ul>
+    <li>
+      <a
+        routerLink="/first-component"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >First Component</a>
+    </li>
+    <li>
+      <a
+        routerLink="/second-component"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Second Component</a>
+    </li>
+    <li>
+      <a
+        routerLink="/third-component"
+        routerLinkActive="active"
+        ariaCurrentWhenActive="page"
+        >Third Component</a>
+    </li>
+  </ul>
+</nav>
+<router-outlet /> -->
+<body> 
+<nav class="navbar navbar-expand-sm navbar-light bg-light  navbar-dark bg-dark">
+  <a class="navbar-brand" href="home">Students</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="list">List </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="addNew">AddNew</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="details">Details</a>
+     </li>
+      <li class="nav-item">
+        <a class="nav-link" href="update">Update</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="delete">Delete</a>
+      </li>
+    </ul>
+    
+      <form class="form d-flex ms-auto">
+        <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+ 
+</nav>
+
+</body>
+<router-outlet/>
